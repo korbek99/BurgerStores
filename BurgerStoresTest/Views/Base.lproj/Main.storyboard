@@ -35,12 +35,15 @@
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="pGS-4n-1iG"/>
+                    <connections>
+                        <segue destination="tDs-YB-rge" kind="show" id="JaY-iR-yYY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wcF-Us-GNn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3076.811594202899" y="-321.42857142857139"/>
         </scene>
-        <!--Home Details View Controller-->
+        <!--Details-->
         <scene sceneID="bTV-JR-9Bc">
             <objects>
                 <viewController storyboardIdentifier="HomeDetailsViewController" id="tDs-YB-rge" customClass="HomeDetailsViewController" customModule="BurgerStoresTest" customModuleProvider="target" sceneMemberID="viewController">
@@ -50,6 +53,7 @@
                         <viewLayoutGuide key="safeArea" id="VpL-zz-oOG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Details" id="Ht4-fZ-Usy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jt7-d6-lRd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

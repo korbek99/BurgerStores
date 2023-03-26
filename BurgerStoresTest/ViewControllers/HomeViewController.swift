@@ -6,7 +6,24 @@
 //
 
 import UIKit
-
+struct itemTableViewModel {
+    let name: String
+    let desc: String
+    let images: String
+    let price: String
+    let latitude: String
+    let longitude: String
+    init(name: String, desc: String,
+         images: String, price: String,
+         latitude: String ,longitude: String) {
+        self.name = name
+        self.desc = desc
+        self.images = images
+        self.price = price
+        self.latitude = latitude
+        self.longitude = longitude
+    }
+}
 class HomeViewController: UIViewController {
 
     var listMenus = [Product]()
@@ -141,6 +158,15 @@ extension HomeViewController: UICollectionViewDelegate , UICollectionViewDataSou
     @objc func goToDetailsView(sender:UIButton){
         print(sender)
         let indexpaths = IndexPath(row: sender.tag, section: 0)
+        
+        if searching {
+            self.selectVC(item: itemTableViewModel(name: searchedMenu[sender.tag].name, desc: searchedMenu[sender.tag].desc, images: String(searchedMenu[sender.tag].image), price: String(searchedMenu[sender.tag].price), latitude: searchedMenu[sender.tag].latitude, longitude: searchedMenu[sender.tag].longitude))
+            
+        } else {
+            let productoVM = self.menuListVM.articleAtIndex(sender.tag)
+            let paths = String(productoVM.productosMenu[sender.tag].image)
+            self.selectVC(item: itemTableViewModel(name: productoVM.productosMenu[sender.tag].name, desc: productoVM.productosMenu[sender.tag].desc, images: String(productoVM.productosMenu[sender.tag].image), price: String(productoVM.productosMenu[sender.tag].price), latitude: productoVM.productosMenu[sender.tag].latitude, longitude: productoVM.productosMenu[sender.tag].longitude))
+        }
     }
 }
 extension HomeViewController: UISearchResultsUpdating, UISearchBarDelegate {
@@ -203,6 +229,16 @@ extension HomeViewController {
     }
     private func stoploading(){
         self.dismiss(animated: false, completion: nil)
+    }
+    func selectVC(item: itemTableViewModel) {
+        let storyboard = self.storyboard?.instantiateViewController(identifier: "HomeDetailsViewController") as! HomeDetailsViewController
+        storyboard.nombreString = item.name
+        storyboard.imageString = String(item.images)
+        storyboard.decripString = item.desc
+        storyboard.precio = "$" + String(item.price)
+        storyboard.latitud = item.latitude
+        storyboard.lontitud = item.longitude
+        self.navigationController?.pushViewController(storyboard, animated: true)
     }
 }
 

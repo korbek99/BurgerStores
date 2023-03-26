@@ -8,19 +8,19 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C94E3EF1-FAC5-493C-AF76-AE5119DE75DF"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BurgerStoresTest/ViewControllers/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
             landmarkName = "setupVM()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "C94E3EF1-FAC5-493C-AF76-AE5119DE75DF - 4bcdd330ab810e7"
+                  uuid = "C94E3EF1-FAC5-493C-AF76-AE5119DE75DF - 4bcdd330ab80566"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/BurgerStoresTest/BurgerStoresTest/ViewControllers/HomeViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "105"
-                  endingLineNumber = "105"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
                   offsetFromSymbolStart = "30">
                </Location>
                <Location
-                  uuid = "C94E3EF1-FAC5-493C-AF76-AE5119DE75DF - 12d9353e79176eb3"
+                  uuid = "C94E3EF1-FAC5-493C-AF76-AE5119DE75DF - 12d9353e79177b30"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,8 +45,8 @@
                   urlString = "file:///Users/korbek100/Documents/Desarrollos%20IOS/BurgerStoresTest/BurgerStoresTest/ViewControllers/HomeViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "106"
-                  endingLineNumber = "106"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
                   offsetFromSymbolStart = "171">
                </Location>
             </Locations>
@@ -56,14 +56,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E12DE8A1-B058-426B-BC59-E2404C50D331"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BurgerStoresTest/ViewControllers/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "177"
-            endingLineNumber = "177"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
             landmarkName = "setupVM()"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "BurgerStoresTest/ViewControllers/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "179"
-            endingLineNumber = "179"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
             landmarkName = "setupVM()"
             landmarkType = "7">
             <Locations>
@@ -126,8 +126,8 @@
             filePath = "BurgerStoresTest/ViewControllers/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "184"
-            endingLineNumber = "184"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
             landmarkName = "setupVM()"
             landmarkType = "7">
          </BreakpointContent>
@@ -136,15 +136,47 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1E9DD004-8981-424D-81C1-F469A9787DC3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BurgerStoresTest/ViewControllers/HomeViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
             landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1197CD33-47D0-4C4E-A5AC-28B1BF06E31E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BurgerStoresTest/ViewControllers/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "goToDetailsView(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7504702C-6225-4E1E-ACA8-1A4487CBC369"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BurgerStoresTest/ViewControllers/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "goToDetailsView(sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
