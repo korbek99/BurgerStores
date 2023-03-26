@@ -27,6 +27,7 @@
 		57D6536929D0044900228074 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6536829D0044900228074 /* FavoritesViewController.swift */; };
 		57D6536E29D0046000228074 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6536D29D0046000228074 /* FavoritesTableViewCell.swift */; };
 		57D6537329D0047800228074 /* CartMarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6537229D0047800228074 /* CartMarketTableViewCell.swift */; };
+		57D6537C29D0054800228074 /* webServicesMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6537B29D0054800228074 /* webServicesMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		57D6536829D0044900228074 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		57D6536D29D0046000228074 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
 		57D6537229D0047800228074 /* CartMarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartMarketTableViewCell.swift; sourceTree = "<group>"; };
+		57D6537B29D0054800228074 /* webServicesMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webServicesMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		57D652F029CFFCF800228074 /* BurgerStoresTest */ = {
 			isa = PBXGroup;
 			children = (
+				57D6537729D004DC00228074 /* Core */,
 				57D6533429D0016400228074 /* ViewModels */,
 				57D6533329D0014E00228074 /* LaunchScreen */,
 				57D6533229D0014200228074 /* EndPoints */,
@@ -132,7 +135,6 @@
 				57D6532B29D000F500228074 /* Models */,
 				57D652F129CFFCF800228074 /* AppDelegate.swift */,
 				57D652F329CFFCF800228074 /* SceneDelegate.swift */,
-				57D652F729CFFCF800228074 /* Main.storyboard */,
 				57D652FD29CFFD0500228074 /* Assets.xcassets */,
 				57D652FF29CFFD0500228074 /* LaunchScreen.storyboard */,
 				57D6530229CFFD0500228074 /* Info.plist */,
@@ -171,6 +173,7 @@
 		57D6532F29D0012C00228074 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				57D652F729CFFCF800228074 /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 		57D6533129D0013C00228074 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				57D6537B29D0054800228074 /* webServicesMenu.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -282,6 +286,13 @@
 				57D6536D29D0046000228074 /* FavoritesTableViewCell.swift */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		57D6537729D004DC00228074 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,6 +437,7 @@
 				57D6533E29D001C200228074 /* InfoViewController.swift in Sources */,
 				57D6537329D0047800228074 /* CartMarketTableViewCell.swift in Sources */,
 				57D6536E29D0046000228074 /* FavoritesTableViewCell.swift in Sources */,
+				57D6537C29D0054800228074 /* webServicesMenu.swift in Sources */,
 				57D6535929D003B600228074 /* HomeDetailsViewController.swift in Sources */,
 				57D6536929D0044900228074 /* FavoritesViewController.swift in Sources */,
 				57D652F429CFFCF800228074 /* SceneDelegate.swift in Sources */,

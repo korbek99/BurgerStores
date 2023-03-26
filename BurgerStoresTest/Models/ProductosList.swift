@@ -7,6 +7,7 @@
 
 import Foundation
 struct ProductosList: Decodable {
+    let code: String
     let status: String
     let products: [Product]
 }
@@ -19,6 +20,7 @@ struct Product: Decodable {
     let price: Int
     let image: String
     let page: String
+    let promo: String
     let latitude: String
     let longitude: String
 }
