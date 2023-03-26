@@ -16,6 +16,8 @@
 		57D6530129CFFD0500228074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D652FF29CFFD0500228074 /* LaunchScreen.storyboard */; };
 		57D6530C29CFFD0600228074 /* BurgerStoresTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6530B29CFFD0600228074 /* BurgerStoresTestTests.swift */; };
 		57D6531729CFFD0600228074 /* BurgerStoresTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6531629CFFD0600228074 /* BurgerStoresTestUITests.swift */; };
+		57D6533629D0018500228074 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6533529D0018500228074 /* HomeViewController.swift */; };
+		57D6533E29D001C200228074 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6533D29D001C200228074 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		57D6531229CFFD0600228074 /* BurgerStoresTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerStoresTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D6531629CFFD0600228074 /* BurgerStoresTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerStoresTestUITests.swift; sourceTree = "<group>"; };
 		57D6531829CFFD0600228074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D6533529D0018500228074 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		57D6533D29D001C200228074 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,15 @@
 		57D652F029CFFCF800228074 /* BurgerStoresTest */ = {
 			isa = PBXGroup;
 			children = (
+				57D6533429D0016400228074 /* ViewModels */,
+				57D6533329D0014E00228074 /* LaunchScreen */,
+				57D6533229D0014200228074 /* EndPoints */,
+				57D6533129D0013C00228074 /* Services */,
+				57D6533029D0013400228074 /* ViewControllers */,
+				57D6532F29D0012C00228074 /* Views */,
+				57D6532B29D000F500228074 /* Models */,
 				57D652F129CFFCF800228074 /* AppDelegate.swift */,
 				57D652F329CFFCF800228074 /* SceneDelegate.swift */,
-				57D652F529CFFCF800228074 /* ViewController.swift */,
 				57D652F729CFFCF800228074 /* Main.storyboard */,
 				57D652FD29CFFD0500228074 /* Assets.xcassets */,
 				57D652FF29CFFD0500228074 /* LaunchScreen.storyboard */,
@@ -129,6 +139,82 @@
 				57D6531829CFFD0600228074 /* Info.plist */,
 			);
 			path = BurgerStoresTestUITests;
+			sourceTree = "<group>";
+		};
+		57D6532B29D000F500228074 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57D6532F29D0012C00228074 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57D6533029D0013400228074 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				57D6533C29D0019500228074 /* Favorites */,
+				57D6533B29D0018F00228074 /* Info */,
+				57D6533A29D0018A00228074 /* Home */,
+				57D652F529CFFCF800228074 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		57D6533129D0013C00228074 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		57D6533229D0014200228074 /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		57D6533329D0014E00228074 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		57D6533429D0016400228074 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		57D6533A29D0018A00228074 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				57D6533529D0018500228074 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		57D6533B29D0018F00228074 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				57D6533D29D001C200228074 /* InfoViewController.swift */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		57D6533C29D0019500228074 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Favorites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +347,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D6533629D0018500228074 /* HomeViewController.swift in Sources */,
 				57D652FC29CFFCF800228074 /* BurgerStoresTest.xcdatamodeld in Sources */,
 				57D652F629CFFCF800228074 /* ViewController.swift in Sources */,
 				57D652F229CFFCF800228074 /* AppDelegate.swift in Sources */,
+				57D6533E29D001C200228074 /* InfoViewController.swift in Sources */,
 				57D652F429CFFCF800228074 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
