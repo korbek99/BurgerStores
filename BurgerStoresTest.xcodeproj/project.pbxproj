@@ -18,6 +18,15 @@
 		57D6531729CFFD0600228074 /* BurgerStoresTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6531629CFFD0600228074 /* BurgerStoresTestUITests.swift */; };
 		57D6533629D0018500228074 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6533529D0018500228074 /* HomeViewController.swift */; };
 		57D6533E29D001C200228074 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6533D29D001C200228074 /* InfoViewController.swift */; };
+		57D6534429D0026B00228074 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6534329D0026B00228074 /* HomeCollectionViewCell.swift */; };
+		57D6534929D002DA00228074 /* APIEndpointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6534829D002DA00228074 /* APIEndpointModel.swift */; };
+		57D6534E29D0030B00228074 /* ProductosList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6534D29D0030B00228074 /* ProductosList.swift */; };
+		57D6535329D0034D00228074 /* endpointsDev.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57D6535229D0034D00228074 /* endpointsDev.plist */; };
+		57D6535929D003B600228074 /* HomeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6535829D003B600228074 /* HomeDetailsViewController.swift */; };
+		57D6536029D0042600228074 /* CartMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6535F29D0042600228074 /* CartMarketViewController.swift */; };
+		57D6536929D0044900228074 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6536829D0044900228074 /* FavoritesViewController.swift */; };
+		57D6536E29D0046000228074 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6536D29D0046000228074 /* FavoritesTableViewCell.swift */; };
+		57D6537329D0047800228074 /* CartMarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6537229D0047800228074 /* CartMarketTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,15 @@
 		57D6531829CFFD0600228074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57D6533529D0018500228074 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		57D6533D29D001C200228074 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		57D6534329D0026B00228074 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		57D6534829D002DA00228074 /* APIEndpointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpointModel.swift; sourceTree = "<group>"; };
+		57D6534D29D0030B00228074 /* ProductosList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductosList.swift; sourceTree = "<group>"; };
+		57D6535229D0034D00228074 /* endpointsDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = endpointsDev.plist; sourceTree = "<group>"; };
+		57D6535829D003B600228074 /* HomeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetailsViewController.swift; sourceTree = "<group>"; };
+		57D6535F29D0042600228074 /* CartMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartMarketViewController.swift; sourceTree = "<group>"; };
+		57D6536829D0044900228074 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		57D6536D29D0046000228074 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		57D6537229D0047800228074 /* CartMarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartMarketTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +162,8 @@
 		57D6532B29D000F500228074 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				57D6534829D002DA00228074 /* APIEndpointModel.swift */,
+				57D6534D29D0030B00228074 /* ProductosList.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,6 +178,8 @@
 		57D6533029D0013400228074 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				57D6535D29D003F700228074 /* CartMarket */,
+				57D6535729D0038F00228074 /* HomeDetails */,
 				57D6533C29D0019500228074 /* Favorites */,
 				57D6533B29D0018F00228074 /* Info */,
 				57D6533A29D0018A00228074 /* Home */,
@@ -176,6 +198,7 @@
 		57D6533229D0014200228074 /* EndPoints */ = {
 			isa = PBXGroup;
 			children = (
+				57D6535229D0034D00228074 /* endpointsDev.plist */,
 			);
 			path = EndPoints;
 			sourceTree = "<group>";
@@ -197,6 +220,7 @@
 		57D6533A29D0018A00228074 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				57D6534229D0024F00228074 /* Cells */,
 				57D6533529D0018500228074 /* HomeViewController.swift */,
 			);
 			name = Home;
@@ -213,8 +237,51 @@
 		57D6533C29D0019500228074 /* Favorites */ = {
 			isa = PBXGroup;
 			children = (
+				57D6536729D0043400228074 /* Cells */,
+				57D6536829D0044900228074 /* FavoritesViewController.swift */,
 			);
 			name = Favorites;
+			sourceTree = "<group>";
+		};
+		57D6534229D0024F00228074 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				57D6534329D0026B00228074 /* HomeCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		57D6535729D0038F00228074 /* HomeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				57D6535829D003B600228074 /* HomeDetailsViewController.swift */,
+			);
+			name = HomeDetails;
+			sourceTree = "<group>";
+		};
+		57D6535D29D003F700228074 /* CartMarket */ = {
+			isa = PBXGroup;
+			children = (
+				57D6535E29D0040D00228074 /* Cells */,
+				57D6535F29D0042600228074 /* CartMarketViewController.swift */,
+			);
+			name = CartMarket;
+			sourceTree = "<group>";
+		};
+		57D6535E29D0040D00228074 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				57D6537229D0047800228074 /* CartMarketTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		57D6536729D0043400228074 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				57D6536D29D0046000228074 /* FavoritesTableViewCell.swift */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +390,7 @@
 				57D6530129CFFD0500228074 /* LaunchScreen.storyboard in Resources */,
 				57D652FE29CFFD0500228074 /* Assets.xcassets in Resources */,
 				57D652F929CFFCF800228074 /* Main.storyboard in Resources */,
+				57D6535329D0034D00228074 /* endpointsDev.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,11 +415,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D6534429D0026B00228074 /* HomeCollectionViewCell.swift in Sources */,
+				57D6534E29D0030B00228074 /* ProductosList.swift in Sources */,
 				57D6533629D0018500228074 /* HomeViewController.swift in Sources */,
 				57D652FC29CFFCF800228074 /* BurgerStoresTest.xcdatamodeld in Sources */,
+				57D6536029D0042600228074 /* CartMarketViewController.swift in Sources */,
 				57D652F629CFFCF800228074 /* ViewController.swift in Sources */,
 				57D652F229CFFCF800228074 /* AppDelegate.swift in Sources */,
+				57D6534929D002DA00228074 /* APIEndpointModel.swift in Sources */,
 				57D6533E29D001C200228074 /* InfoViewController.swift in Sources */,
+				57D6537329D0047800228074 /* CartMarketTableViewCell.swift in Sources */,
+				57D6536E29D0046000228074 /* FavoritesTableViewCell.swift in Sources */,
+				57D6535929D003B600228074 /* HomeDetailsViewController.swift in Sources */,
+				57D6536929D0044900228074 /* FavoritesViewController.swift in Sources */,
 				57D652F429CFFCF800228074 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

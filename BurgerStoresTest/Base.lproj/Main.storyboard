@@ -40,6 +40,21 @@
             </objects>
             <point key="canvasLocation" x="3076.811594202899" y="-321.42857142857139"/>
         </scene>
+        <!--Home Details View Controller-->
+        <scene sceneID="bTV-JR-9Bc">
+            <objects>
+                <viewController storyboardIdentifier="HomeDetailsViewController" id="tDs-YB-rge" customClass="HomeDetailsViewController" customModule="BurgerStoresTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DqZ-X1-pzA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="VpL-zz-oOG"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jt7-d6-lRd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3859" y="-321"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="qh0-R4-rz9">
             <objects>
