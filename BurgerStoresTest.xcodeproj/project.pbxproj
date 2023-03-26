@@ -28,6 +28,7 @@
 		57D6536E29D0046000228074 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6536D29D0046000228074 /* FavoritesTableViewCell.swift */; };
 		57D6537329D0047800228074 /* CartMarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6537229D0047800228074 /* CartMarketTableViewCell.swift */; };
 		57D6537C29D0054800228074 /* webServicesMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6537B29D0054800228074 /* webServicesMenu.swift */; };
+		57D6538229D0E00300228074 /* MenuListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D6538129D0E00300228074 /* MenuListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		57D6536D29D0046000228074 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
 		57D6537229D0047800228074 /* CartMarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartMarketTableViewCell.swift; sourceTree = "<group>"; };
 		57D6537B29D0054800228074 /* webServicesMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webServicesMenu.swift; sourceTree = "<group>"; };
+		57D6538129D0E00300228074 /* MenuListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 		57D6533429D0016400228074 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				57D6538029D0DFE700228074 /* MenuViewModel */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -293,6 +296,14 @@
 			children = (
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		57D6538029D0DFE700228074 /* MenuViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				57D6538129D0E00300228074 /* MenuListViewModel.swift */,
+			);
+			path = MenuViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,6 +452,7 @@
 				57D6535929D003B600228074 /* HomeDetailsViewController.swift in Sources */,
 				57D6536929D0044900228074 /* FavoritesViewController.swift in Sources */,
 				57D652F429CFFCF800228074 /* SceneDelegate.swift in Sources */,
+				57D6538229D0E00300228074 /* MenuListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -37,15 +37,15 @@ class HomeCollectionViewCell: UICollectionViewCell {
         let image: UIImageView = .init()
         image.contentMode = .scaleAspectFit
         image.layer.masksToBounds = true
-        image.layer.cornerRadius = 15.0
+        image.layer.cornerRadius = 20.0
         image.translatesAutoresizingMaskIntoConstraints = false
         return image
     }()
     lazy var btnDetails: UIButton = {
         let button: UIButton = .init()
-        button.backgroundColor = .white
-        button.setTitle("Details", for: .normal)
-        button.setTitleColor(UIColor.black, for: .normal)
+        button.backgroundColor = .systemGreen
+        button.setTitle("Ver Detalle", for: .normal)
+        button.setTitleColor(UIColor.white, for: .normal)
         button.layer.cornerRadius = 10
         button.layer.borderWidth = 1
         button.clipsToBounds = true
@@ -80,7 +80,7 @@ class HomeCollectionViewCell: UICollectionViewCell {
         lblName.textColor = UIColor.black
         lblName.numberOfLines = 0
         lblPrice.font = UIFont.boldSystemFont(ofSize: 25.0)
-        lblPrice.textColor = UIColor.white
+        lblPrice.textColor = .systemGreen
         lblPrice.numberOfLines = 0
     }
     func setupUIUX(){
@@ -88,29 +88,30 @@ class HomeCollectionViewCell: UICollectionViewCell {
         addSubview(lblName)
         addSubview(lblPrice)
         addSubview(imgMenu)
-        addSubview(imgMenu)
+        addSubview(btnDetails)
         
         imgMenu.topAnchor.constraint(equalTo: topAnchor, constant: 10).isActive = true
         imgMenu.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10).isActive = true
         imgMenu.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10).isActive = true
-        imgMenu.heightAnchor.constraint(equalToConstant: 150).isActive = true
+        imgMenu.heightAnchor.constraint(equalToConstant: 130).isActive = true
         imgMenu.widthAnchor.constraint(equalToConstant: 150).isActive = true
         
-        lblName.topAnchor.constraint(equalTo: lblName.bottomAnchor, constant: 10).isActive = true
-        lblName.leadingAnchor.constraint(equalTo: imgMenu.trailingAnchor, constant: 10).isActive = true
+        lblName.topAnchor.constraint(equalTo: imgMenu.bottomAnchor, constant: 10).isActive = true
+        lblName.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10).isActive = true
         lblName.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10).isActive = true
         lblName.heightAnchor.constraint(equalToConstant: 20).isActive = true
         
         lblPrice.topAnchor.constraint(equalTo: lblName.bottomAnchor, constant: 10).isActive = true
-        lblPrice.leadingAnchor.constraint(equalTo: imgMenu.trailingAnchor, constant: 10).isActive = true
+        lblPrice.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10).isActive = true
+        lblPrice.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10).isActive = true
         lblPrice.heightAnchor.constraint(equalToConstant: 20).isActive = true
         lblPrice.widthAnchor.constraint(equalToConstant: 100).isActive = true
         
         btnDetails.topAnchor.constraint(equalTo: lblPrice.bottomAnchor, constant: 10).isActive = true
         btnDetails.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10).isActive = true
         btnDetails.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10).isActive = true
-        btnDetails.heightAnchor.constraint(equalToConstant: 20).isActive = true
-        btnDetails.widthAnchor.constraint(equalToConstant: 150).isActive = true
+        btnDetails.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        btnDetails.widthAnchor.constraint(equalToConstant: 100).isActive = true
         
     }
 }
